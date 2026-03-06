@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EasyPark - Smart Parking App</title>
+
+<style>
+
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+background:linear-gradient(-45deg,#0f2027,#203a43,#2c5364,#00c9a7);
+background-size:400% 400%;
+animation:gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.container{
+width:430px;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(12px);
+border-radius:18px;
+padding:40px;
+text-align:center;
+box-shadow:0 20px 40px rgba(0,0,0,0.4);
+}
+
+img{
+width:80px;
+height:80px;
+margin:auto;
+border-radius:20px;
+background:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:40px;
+color:#2c5364;
+margin-bottom:15px;
+}
+
+h1{
+margin:5px 0;
+font-size:30px;
+}
+
+.subtitle{
+opacity:0.8;
+margin-bottom:15px;
+}
+
+.rating{
+margin-bottom:20px;
+font-size:14px;
+opacity:0.9;
+}
+
+.features{
+text-align:left;
+margin:20px 0;
+line-height:1.8;
+font-size:15px;
+}
+
+.install-btn{
+display:inline-block;
+background:#00e676;
+color:black;
+padding:15px 30px;
+font-size:18px;
+font-weight:bold;
+border-radius:10px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.install-btn:hover{
+background:#00c853;
+transform:scale(1.07);
+}
+
+.stats{
+display:flex;
+justify-content:space-around;
+margin-top:25px;
+font-size:14px;
+opacity:0.9;
+}
+
+.footer{
+margin-top:25px;
+font-size:12px;
+opacity:0.7;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div><img src="easypark-logo.png"></div>
+
+<h1>EasyPark</h1>
+<div class="subtitle">Smart Parking Management</div>
+
+<div class="rating">
+⭐ 4.8 • 1K+ Downloads • Parking
+</div>
+
+<div class="features">
+✔ Find available parking slots<br>
+✔ Book parking instantly<br>
+✔ Real-time parking availability
+</div>
+
+<a href="EasyPark.apk" class="install-btn">
+Install
+</a>
+
+<div class="stats">
+<div>
+<b>1K+</b><br>Downloads
+</div>
+
+<div>
+<b>4.8⭐</b><br>Rating
+</div>
+
+<div>
+<b>1.0</b><br>Version
+</div>
+</div>
+
+<div class="footer">
+Demo Application • MCA Project
+</div>
+
+</div>
+
+</body>
+</html>
